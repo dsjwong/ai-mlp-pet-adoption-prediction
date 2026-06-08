@@ -48,3 +48,19 @@ model.load_weights("mlp_model.weights.h5")
 - **Source:** PetFinder-Mini (derived from Kaggle PetFinder.my Adoption Prediction)
 - **Features:** Type, Age, Breed, Gender, Color, Maturity Size, Fur Length, Health, Fee, PhotoAmt, etc.
 - **Target:** AdoptionSpeed (0 = same day, 1 = within a week, 2 = within a month, 3 = within 3 months, 4 = no adoption)
+
+## Environment
+
+Developed and tested with:
+
+- Python 3.9+
+- Jupyter Notebook / JupyterLab
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt      # if provided
+# or manually: pip install numpy pandas matplotlib scikit-learn torch torchvision
+```
+
+Open notebooks in order — each notebook builds on outputs from the previous one.
