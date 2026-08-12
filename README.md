@@ -27,7 +27,7 @@ Uses the PetFinder-Mini dataset (a curated subset of the Petfinder.my competitio
 ai-mlp-pet-adoption-prediction/
 ├── mlp_pet_adoption.ipynb          # Training and evaluation notebook
 ├── mlp_model.weights.h5      # Saved model weights
-└── petfinder-mini.csv        # Dataset (not committed — download separately, see Dataset section)
+└── petfinder-mini.csv        # Dataset (included in repo, see Dataset section)
 ```
 
 ## How to Run
@@ -49,7 +49,7 @@ model.load_weights("mlp_model.weights.h5")
 - **Features:** Type, Age, Breed, Gender, Color, Maturity Size, Fur Length, Health, Fee, PhotoAmt, etc.
 - **Target:** AdoptionSpeed (0 = same day, 1 = within a week, 2 = within a month, 3 = within 3 months, 4 = no adoption)
 
-`petfinder-mini.csv` is not committed to this repository (third-party dataset, kept out of version control). Download it from one of the sources above and place it at the repo root as `petfinder-mini.csv` before running the notebook.
+`petfinder-mini.csv` is included in this repository as-is for convenience so the notebook runs immediately after cloning. Credit for the data belongs to the sources above; see them for the original license and citation terms.
 
 ## Environment
 
